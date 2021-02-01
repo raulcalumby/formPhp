@@ -4,7 +4,6 @@
 
 class Pessoa
 {
-
     public string $nome;
     public string $sobrenome;
     public string $email;
@@ -20,42 +19,29 @@ class Pessoa
         $this->profissao = $setProfissao;
     }
 
-
     public function getNome()
     {
-
         return $this->nome;
     }
+
     public function getSobrenome()
     {
-
         return $this->sobrenome;
     }
+
     public function getEmail()
     {
-
         return $this->email;
     }
+
     public function getTelefone()
     {
-
         return $this->telefone;
     }
+
     public function getProfissao()
     {
-
         return $this->profissao;
-    }
-
-    public function exibeFormulario()
-    {
-        echo $this->nome . '<br>';
-        echo $this->sobrenome . '<br>';
-        echo  $this->email . '<br>';
-        echo $this->telefone . '<br>';
-        echo  $this->profissao;
     }
 }
 
-
-?>
